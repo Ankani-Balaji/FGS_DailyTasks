@@ -1,0 +1,87 @@
+.card{
+  height: 400px;
+  width: 300px;
+  border: 1px solid black;
+
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.violet{
+  background-color: rgb(147, 17, 216);
+  height: 40%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.profile{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  background-color: black;
+
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.data{
+  width: 100%;
+  position: absolute;
+  top: 45%;
+}
+.data-inside{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.name{
+  margin-top: 40px;
+}
+p, h3{
+  margin-top: -10px;
+}
+.buttons{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 10px;
+}
+.btn{
+  height: 40px;
+  width: 200px;
+  background-color:  rgb(147, 17, 216);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.logos{
+  height: auto;
+  width: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.fa-brands{
+  font-size: 22px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
